@@ -73,7 +73,7 @@ function init() {
           console.log(err);
         } else {
           // If the file is written successfully, log a success message
-          console.log('Look at your spiffy new README!');
+          console.log('README.md generated successfully!');
         }
       });
     });

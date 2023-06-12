@@ -22,11 +22,6 @@ const questions = [
   },
   {
     type: "input",
-    name: "installation",
-    message: "Enter installation instructions: ",
-  },
-  {
-    type: "input",
     name: "usage",
     message: "Enter usage information: ",
   },

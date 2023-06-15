@@ -57,12 +57,12 @@ const questions = [
 // TODO: Create a function to initialize app
 function init() {
   // Prompt user for input
-  inquirer.prompt(questions).then(function (userInput) {
+  inquirer.prompt(questions).then((userInput) => {
     // Generate markdown string based on user input
     const markdownString = generateMarkdown(userInput);
 
     // Write markdown string to README.md file
-    fs.writeFile("README.md", markdownString, function (err) {
+    fs.writeFile("README.md", markdownString, (err) => {
       if (err) {
         // If there's an error, log it
         console.log(err);

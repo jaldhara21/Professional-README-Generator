@@ -1,4 +1,4 @@
-# Professional README Generator 
+# Professional README Generator
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -17,7 +17,7 @@
   
   ## Installation
   
-  Download/ clone the Github repo and install dependancies using ```npm install```
+  Download/clone the GitHub repo and install dependancies using ```npm install```
   
   ## Usage
   
@@ -34,6 +34,9 @@ This application is covered under the [MIT](https://opensource.org/licenses/MIT)
   ## Tests
   
   N/A
+
+  ## Here is a video demo of the project functinality 
+  https://drive.google.com/file/d/13EKMt0N-tA0_FaRY8VTLCLXrG8Z89M6-/view
   
   ## Questions
   

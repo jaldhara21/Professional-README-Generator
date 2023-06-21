@@ -62,7 +62,7 @@ function init() {
     const markdownString = generateMarkdown(userInput);
 
     // Write markdown string to README.md file
-    fs.writeFile("README.md", markdownString, (err) => {
+    fs.writeFile("./dist/Generated-README.md", markdownString, (err) => {
       if (err) {
         // If there's an error, log it
         console.log(err);
